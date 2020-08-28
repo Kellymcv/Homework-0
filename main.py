@@ -1,7 +1,7 @@
-celsius = (input("Enter temperature in celsius: "))
+Celsius = (input("Enter temperature in celsius: "))
 
-celsius = float(celsius)
+Celsius = float(Celsius)
 
-Fahrenheit = (celsius * 1.8)+32
+Fahrenheit = (Celsius * 1.8)+32
 
-print(str(celsius)+ "° in celsius is equivalent to " + str(Fahrenheit) + "°Fahrenheit.")
+print(str(Celsius)+ "° in Celsius is equivalent to " + str(Fahrenheit) + "°Fahrenheit.")
